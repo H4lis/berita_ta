@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.login-page{
+    margin: 150px;
+}
+
+.login-page form{
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+table{
+    width: 300px;
+}
+
+.login-page tr td h1{
+    text-align: center;
+}
+
+.login-page form input[type=text], input[type=password]{
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    font-size: 18px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid aqua;
+    width: 90%;
+    height: 30px;
+}
+
+.login-page form input[type=submit]{
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.login-page form input[type=submit]:hover{
+    background-color: none;
+}

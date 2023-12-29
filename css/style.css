@@ -1,0 +1,238 @@
+body{
+    margin: 0px;
+    background-color: aliceblue;
+    height: 100%;
+}
+
+/* NAVBAR */
+.container{
+    width: 70%;
+    margin: 0px auto;
+    height: auto;
+}
+
+header{
+    padding: 7px 7px;
+    height: 60px;
+    background-color: aquamarine;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+    font-family: fantasy;
+    margin-top: 10px;
+}
+
+header ul{
+    list-style: none;
+    margin-left: 270px;
+}
+
+header ul li{
+    float: left;
+}
+
+header ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: rockwell;
+    color: black;
+}
+
+header ul li a:hover{
+    color: rgb(105, 105, 105);
+}
+
+.cari{
+    margin-left: 700px;
+    position: absolute;
+    margin-top: -8px;
+}
+
+.cari input[type=text]{
+    padding: 7px;
+    border: none;
+}
+.cari button{
+    padding: 8px 10px 8px 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+
+/* AKHIR NAVBAR */
+
+.clear{
+    clear: both;
+}
+
+/* CONTENT */
+.content{
+    padding: 20px;
+    background-color: white;
+    height: 140vh;
+}
+
+.berita{
+    width: 269px;
+    height: 400px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    border-radius: 5px;
+    float: left;
+    margin: 5px;
+}
+
+.berita img{
+    width: 100%;
+    height: 100%;
+}
+
+.cover-grid{
+    width: 100%;
+    height: 200px;
+}
+
+.judul{
+    text-align: left;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.judul h5 a{
+    text-decoration: none;
+    color: black;
+}
+.judul h5 a:hover{
+    color: blue;
+}
+
+.berita .kategori{
+    text-align: left;
+    margin-bottom: -20px;
+}
+.berita .kategori p{
+    font-weight: 500;
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.berita .kategori p a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.berita .kategori p a:hover{
+    color: blue;
+}
+
+.col-9, .col-3{
+    float: left;
+}
+
+.col-9{
+    width: 75%;
+}
+.col-9 .row{
+    width: 100%;
+    color: black;
+    margin-bottom: -15px;
+}
+
+.col-9 .row p{
+    width: 100%;
+    
+}
+.col-9 .row p a{
+    text-decoration: none;
+    color: black;
+}
+.col-9 .row p a:hover{
+    color: blue;
+}
+
+.col-9 .row-isi{
+    margin-top: 20px;
+    width: 650px;
+}
+.col-9 .row-isi p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-3{
+    width: 25%;
+    text-align: center;
+}
+.col-3 h2{
+    color: black;
+}
+
+.sidebar{
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    padding: 5px 5px 25px 5px;
+    border-radius: 5px;
+    margin: 3px 0px;
+    height: 100px;
+}
+
+.image{
+    padding: 5px;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.image img{
+    width: 100px;
+}
+
+.atribut a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+.atribut a:hover{
+    color: blue;
+}
+
+.btn{
+    color: white;
+    padding: 5px 20px;
+    background-color: brown;
+}
+
+.btn:hover{
+    background-color: rgb(122, 31, 31);
+}
+/* AKHIR CONTENT */
+
+/* FOOTER */
+footer .container{
+    background-color: aquamarine;
+    height: 100px;
+    margin-top: -16px;
+}
+
+footer .container .copyright{
+    padding: 20px;
+}
+
+footer .container .copyright a{
+    text-decoration: none;
+    color: black;
+}
+/* AKHIR FOOTER */

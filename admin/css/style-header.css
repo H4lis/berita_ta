@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    background-color: #E6E9F0;
+}
+
+.header{
+    background-color: white;
+    padding: 7px 0px 10px 20px;
+    height: 60px;
+}
+
+.header h1{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+    font-family: fantasy;
+    margin-top: 10px;
+}
+
+.panel{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 200px;
+    background-color: white;
+    height: 35vh;
+    float: left;
+    border-radius: 20px;
+}
+
+.panel ul{
+    list-style: none;
+    width: 119px;
+}
+
+.panel ul li{
+    padding: 8px 0;
+    border-bottom-style: dotted;
+    color: #FF7B53;
+}
+
+.panel ul li a{
+    text-decoration: none;
+    color: #FF7B53;
+    font-size: 18px;
+}
+
+.panel ul li a:hover{
+    color: #af4c4c;
+}
+
+
+/* CONTENT */
+.content{
+    margin-left: 200px;
+    padding: 20px 0px 20px 20px;
+    font-family: sans-serif;
+    width: 83%;
+}
+
+.container{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.title-atas {
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.tengah{
+    margin-top: 5px;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tengah .title-satu {
+    font-weight: bold;
+}
+
+.bawah{
+    margin-top: 5px;
+    padding: 10px 10px;
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: bold;
+}
+
+.tambah{
+    margin-bottom: 10px;
+    margin-left: 1000px;
+}
+.tambah a{
+    text-decoration: none;
+    background-color: #006FFF;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tambah a:hover{
+    color: white;
+}
+
+.tengah .hapus a{
+    text-decoration: none;
+    background-color: red;
+    color: black;
+    padding: 1px;
+    border-radius: 2px;
+}
+.hapus a:hover{
+    color: white;
+}
+.tengah .edit a{
+    text-decoration: none;
+    background-color: green;
+    color: black;
+    padding: 1px;
+    border-radius: 2px;
+}
+.edit a:hover{
+    color: white;
+}
+/* AKHIR CONTENT */
+
+
+/* TAMBAH BERITA*/
+.tambah_title{
+    width: 70%;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.tambah-tengah{
+    background-color: white;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.tambah-tengah tr td{
+    font-weight: bold;
+    padding: 20px;
+    height: 50px;
+}
+form input[type=text],input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 0.1px solid black;
+    box-sizing: border-box;
+}
+form select{
+    padding: 12px 20px;
+    margin: 8px 0px 0px 10px;
+    border: none;
+    box-sizing: border-box;
+    background: #eee;
+    font-weight: bold;
+    font-size: 15px;
+}
+form option{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 0.1px solid black;
+}
+
+form input[type=file]{
+    padding: 12px 20px;
+    margin: 8px 0px 0px 10px;
+    border: none;
+    box-sizing: border-box;
+    background: #eee;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tambah-bawah{
+    background-color: white;
+    width: 70%;
+    height: 10vh;
+    border-radius: 0px 0px 20px 20px;
+}
+.tambah-bawah input{
+    border: none;
+    padding: 10px;
+    background-color: #006FFF;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.tambah-bawah input:hover{
+    color: white;
+    background-color: #4998ff;
+}
+/* AKHIR TAMBAH BERITA*/
+
+/* TAMBAH ADMIN & KATEGORI */
+.tambah-admin{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.tambah-b{
+    background-color: white;
+    height: 10vh;
+    border-radius: 0px 0px 20px 20px;
+}
+.tambah-b input{
+    border: none;
+    padding: 10px;
+    background-color: #006FFF;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.tambah-b input:hover{
+    color: white;
+    background-color: #4998ff;
+}
+/* AKHIR TAMBAH ADMIN & KATEGORI */
